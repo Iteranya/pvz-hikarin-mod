@@ -1,0 +1,173 @@
+[
+  {
+    "kind": "label",
+    "data": {
+      "name": "level1_begin"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 1, before the first seeds are even chosen. The Pea family is already judging my card picks."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Pea Waifu",
+      "content": "Sunflower first, druid. ALWAYS Sunflower first. Then me. Then we fuse and become Sunshooter."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "level1_win"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "1"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Sunflower Waifu",
+      "content": "Trophy! You picked up the trophy and you still came back to gloat. Twin Sunflower approves."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Level 2 tomorrow. Something red is coming."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "level2_begin"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 2. The Cherry Bomb is awake. She is a one-use plant. She does NOT do encores."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Cherry Waifu",
+      "content": "I am a single, perfect explosion. Point me at the biggest crowd you have."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "level2_win"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "2"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Cherry Waifu",
+      "content": "Level clear. I exploded beautifully and I would like a nap now."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Level 3 tomorrow. Wall-nut's shift."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "level3_begin"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 3. Wall-nut has volunteered to be the front row. Forever. He has no choice, he is a wall."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Wall Waifu",
+      "content": "I will hold the line. Probably. Do not think about my health bar."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "level3_win"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "3"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Wall Waifu",
+      "content": "We survived! The Shrooms are next — they only come out at night, and Doom and Ice are watching from the roof."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Three Adventure levels down. The druid story continues in the fog."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  }
+]

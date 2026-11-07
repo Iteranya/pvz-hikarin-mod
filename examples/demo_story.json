@@ -1,0 +1,64 @@
+[
+  {
+    "type": "meta",
+    "action": "start",
+    "id": 0
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "start",
+    "id": 1
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cupa",
+    "content": "VN time.",
+    "id": 2
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "boss_fight_1",
+    "on_complete": "win",
+    "on_fail": "lose",
+    "id": 3
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win",
+    "id": 4
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cupa",
+    "content": "Back from the level!",
+    "id": 5
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 6
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "lose",
+    "id": 7
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cupa",
+    "content": "Lost... retry?",
+    "id": 8
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 9
+  }
+]

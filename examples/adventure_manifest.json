@@ -1,0 +1,17 @@
+{
+  "adv_day_1": {
+    "name": "Adventure Day Level 1",
+    "levelNumber": 1,
+    "file": "Adventure Mode > Day > Level 1"
+  },
+  "adv_day_2": {
+    "name": "Adventure Day Level 2",
+    "levelNumber": 2,
+    "file": "Adventure Mode > Day > Level 2"
+  },
+  "adv_day_3": {
+    "name": "Adventure Day Level 3",
+    "levelNumber": 3,
+    "file": "Adventure Mode > Day > Level 3"
+  }
+}

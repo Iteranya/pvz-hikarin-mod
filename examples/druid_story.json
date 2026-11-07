@@ -1,0 +1,205 @@
+[
+  {
+    "type": "meta",
+    "action": "start",
+    "id": 0
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "start",
+    "id": 1
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 1. The zombies are at the fence. The Pea family said they'd help — if I survive today.",
+    "id": 2
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day1",
+    "id": 3
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "druid_day1",
+    "on_complete": "win1",
+    "on_fail": "retry1",
+    "id": 4
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win1",
+    "id": 5
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 1,
+    "id": 6
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Pea Waifu",
+    "content": "You lived! Repeater and I will carry seeds for you now. Tomorrow the Sunflowers wake up.",
+    "id": 7
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 2. Sunflowers make sun. I need sun. We need sun.",
+    "id": 8
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day2",
+    "id": 9
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "druid_day2",
+    "on_complete": "win2",
+    "on_fail": "retry2",
+    "id": 10
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win2",
+    "id": 11
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 2,
+    "id": 12
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Sunflower Waifu",
+    "content": "Twin Sunflower sends her thanks. The Shrooms are… shy. They only come out at night.",
+    "id": 13
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 3. Puff, Scaredy, Fume, Gloom. And something bigger watching from the roof.",
+    "id": 14
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day3",
+    "id": 15
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "druid_day3",
+    "on_complete": "win3",
+    "on_fail": "retry3",
+    "id": 16
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win3",
+    "id": 17
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 3,
+    "id": 18
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Shroom Waifu",
+    "content": "Doom and Ice chose to stay quiet today. They are not like us. You will know them when the roof burns.",
+    "id": 19
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Three days survived. 297 to go for the three million. Fine. We feast tonight.",
+    "id": 20
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 21
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry1",
+    "id": 22
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "The lawn fell. Again. Same day, same zombies — go again.",
+    "id": 23
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day1",
+    "id": 24
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry2",
+    "id": 25
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Again. The Sunflowers believe in us. Probably.",
+    "id": 26
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day2",
+    "id": 27
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry3",
+    "id": 28
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Again. Even the Shrooms are nervous now.",
+    "id": 29
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day3",
+    "id": 30
+  }
+]

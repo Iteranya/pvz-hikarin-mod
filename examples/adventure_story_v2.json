@@ -1,0 +1,178 @@
+[
+  {
+    "type": "meta",
+    "action": "start",
+    "id": 0
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level1_begin",
+    "id": 1
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 1, before the first seeds are even chosen. The Pea family is already judging my card picks.",
+    "id": 2
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Pea Waifu",
+    "content": "Sunflower first, druid. ALWAYS Sunflower first. Then me. Then we fuse and become Sunshooter.",
+    "id": 3
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 4
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level1_win",
+    "id": 5
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 1,
+    "id": 6
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Sunflower Waifu",
+    "content": "Trophy! You picked up the trophy and you still came back to gloat. Twin Sunflower approves.",
+    "id": 7
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Level 2 tomorrow. Something red is coming.",
+    "id": 8
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 9
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level2_begin",
+    "id": 10
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 2. The Cherry Bomb is awake. She is a one-use plant. She does NOT do encores.",
+    "id": 11
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cherry Waifu",
+    "content": "I am a single, perfect explosion. Point me at the biggest crowd you have.",
+    "id": 12
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 13
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level2_win",
+    "id": 14
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 2,
+    "id": 15
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cherry Waifu",
+    "content": "Level clear. I exploded beautifully and I would like a nap now.",
+    "id": 16
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Level 3 tomorrow. Wall-nut's shift.",
+    "id": 17
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 18
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level3_begin",
+    "id": 19
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Day 3. Wall-nut has volunteered to be the front row. Forever. He has no choice, he is a wall.",
+    "id": 20
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Wall Waifu",
+    "content": "I will hold the line. Probably. Do not think about my health bar.",
+    "id": 21
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 22
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "level3_win",
+    "id": 23
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 3,
+    "id": 24
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Wall Waifu",
+    "content": "We survived! The Shrooms are next — they only come out at night, and Doom and Ice are watching from the roof.",
+    "id": 25
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Three Adventure levels down. The druid story continues in the fog.",
+    "id": 26
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 27
+  }
+]

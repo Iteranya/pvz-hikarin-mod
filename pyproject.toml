@@ -1,0 +1,9 @@
+[project]
+name = "pvz-hikarin-mod"
+version = "0.1.0"
+description = "Hikarin VN runtime for Plants vs Zombies: Fusion (reference implementation)"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]

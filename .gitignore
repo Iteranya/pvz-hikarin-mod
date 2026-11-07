@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+**/bin/
+**/obj/
+examples/_pond_level1_template.json
+examples/levels/

@@ -1,0 +1,205 @@
+[
+  {
+    "type": "meta",
+    "action": "start",
+    "id": 0
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "start",
+    "id": 1
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Adventure Day, Level 1. The Pea family and the Sunflowers are already arguing over who gets the front row.",
+    "id": 2
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Pea Waifu",
+    "content": "Plant me first. I shoot, she makes sun, we fuse — Sunshooter. That's the whole tutorial, druid.",
+    "id": 3
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day1",
+    "id": 4
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "adv_day_1",
+    "on_complete": "win1",
+    "on_fail": "retry1",
+    "id": 5
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win1",
+    "id": 6
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 1,
+    "id": 7
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Sunflower Waifu",
+    "content": "Level clear! Twin Sunflower says hi. Tomorrow something red and loud shows up.",
+    "id": 8
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day2",
+    "id": 9
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "adv_day_2",
+    "on_complete": "win2",
+    "on_fail": "retry2",
+    "id": 10
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win2",
+    "id": 11
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 2,
+    "id": 12
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Cherry Bomb introduced today — she's a one-use plant, she does NOT do encores. Wall-nut tomorrow.",
+    "id": 13
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Cherry Waifu",
+    "content": "I am a single, perfect explosion. Do not ask me to do it again.",
+    "id": 14
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "day3",
+    "id": 15
+  },
+  {
+    "type": "play_level",
+    "action": "play_level",
+    "level": "adv_day_3",
+    "on_complete": "win3",
+    "on_fail": "retry3",
+    "id": 16
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "win3",
+    "id": 17
+  },
+  {
+    "type": "modify_variable",
+    "action": "set",
+    "var": "day",
+    "value": 3,
+    "id": 18
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Three Adventure levels survived. The Shrooms, Doom and Ice are still out there past the fog — later, druid's honor.",
+    "id": 19
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Pea Waifu",
+    "content": "Same time tomorrow. Bring fertilizer.",
+    "id": 20
+  },
+  {
+    "type": "finish_dialogue",
+    "action": "finish_dialogue",
+    "id": 21
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry1",
+    "id": 22
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Level 1 again. The lawn fell. Again.",
+    "id": 23
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day1",
+    "id": 24
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry2",
+    "id": 25
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Level 2 again. Cherry says she meant that. Go again.",
+    "id": 26
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day2",
+    "id": 27
+  },
+  {
+    "type": "label",
+    "action": "label",
+    "label": "retry3",
+    "id": 28
+  },
+  {
+    "type": "dialogue",
+    "action": "say",
+    "label": "Druid",
+    "content": "Level 3 again. Wall-nut believes in us. He is a wall, he has no choice.",
+    "id": 29
+  },
+  {
+    "type": "transition",
+    "action": "jump",
+    "label": "day3",
+    "id": 30
+  }
+]

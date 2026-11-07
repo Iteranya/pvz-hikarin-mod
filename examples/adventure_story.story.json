@@ -1,0 +1,205 @@
+[
+  {
+    "kind": "label",
+    "data": {
+      "name": "start"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Adventure Day, Level 1. The Pea family and the Sunflowers are already arguing over who gets the front row."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Pea Waifu",
+      "content": "Plant me first. I shoot, she makes sun, we fuse — Sunshooter. That's the whole tutorial, druid."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day1"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "adv_day_1",
+      "on_complete": "win1",
+      "on_fail": "retry1"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win1"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "1"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Sunflower Waifu",
+      "content": "Level clear! Twin Sunflower says hi. Tomorrow something red and loud shows up."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day2"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "adv_day_2",
+      "on_complete": "win2",
+      "on_fail": "retry2"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win2"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "2"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Cherry Bomb introduced today — she's a one-use plant, she does NOT do encores. Wall-nut tomorrow."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Cherry Waifu",
+      "content": "I am a single, perfect explosion. Do not ask me to do it again."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day3"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "adv_day_3",
+      "on_complete": "win3",
+      "on_fail": "retry3"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win3"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "3"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Three Adventure levels survived. The Shrooms, Doom and Ice are still out there past the fog — later, druid's honor."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Pea Waifu",
+      "content": "Same time tomorrow. Bring fertilizer."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry1"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Level 1 again. The lawn fell. Again."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day1"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry2"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Level 2 again. Cherry says she meant that. Go again."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day2"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry3"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Level 3 again. Wall-nut believes in us. He is a wall, he has no choice."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day3"
+    }
+  }
+]

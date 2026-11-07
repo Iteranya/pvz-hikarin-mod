@@ -1,0 +1,205 @@
+[
+  {
+    "kind": "label",
+    "data": {
+      "name": "start"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 1. The zombies are at the fence. The Pea family said they'd help — if I survive today."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day1"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "druid_day1",
+      "on_complete": "win1",
+      "on_fail": "retry1"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win1"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "1"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Pea Waifu",
+      "content": "You lived! Repeater and I will carry seeds for you now. Tomorrow the Sunflowers wake up."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 2. Sunflowers make sun. I need sun. We need sun."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day2"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "druid_day2",
+      "on_complete": "win2",
+      "on_fail": "retry2"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win2"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "2"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Sunflower Waifu",
+      "content": "Twin Sunflower sends her thanks. The Shrooms are… shy. They only come out at night."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Day 3. Puff, Scaredy, Fume, Gloom. And something bigger watching from the roof."
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "day3"
+    }
+  },
+  {
+    "kind": "playLevel",
+    "data": {
+      "level": "druid_day3",
+      "on_complete": "win3",
+      "on_fail": "retry3"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "win3"
+    }
+  },
+  {
+    "kind": "setVar",
+    "data": {
+      "scope": "",
+      "var": "day",
+      "operation": "set",
+      "value": "3"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Shroom Waifu",
+      "content": "Doom and Ice chose to stay quiet today. They are not like us. You will know them when the roof burns."
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Three days survived. 297 to go for the three million. Fine. We feast tonight."
+    }
+  },
+  {
+    "kind": "end",
+    "data": {}
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry1"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "The lawn fell. Again. Same day, same zombies — go again."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day1"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry2"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Again. The Sunflowers believe in us. Probably."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day2"
+    }
+  },
+  {
+    "kind": "label",
+    "data": {
+      "name": "retry3"
+    }
+  },
+  {
+    "kind": "say",
+    "data": {
+      "label": "Druid",
+      "content": "Again. Even the Shrooms are nervous now."
+    }
+  },
+  {
+    "kind": "jump",
+    "data": {
+      "target": "day3"
+    }
+  }
+]
